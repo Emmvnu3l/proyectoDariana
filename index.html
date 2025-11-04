@@ -12,6 +12,11 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Prefetch for above-the-fold images -->
+  <link rel="prefetch" href="assets/img/info-cards/mision-gotagris.webp" as="image" type="image/webp">
+  <link rel="prefetch" href="assets/img/info-cards/beneficios-agricultor.webp" as="image" type="image/webp">
+  <link rel="prefetch" href="assets/img/info-cards/proceso-agua-gris.webp" as="image" type="image/webp">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -202,8 +207,20 @@
         <div class="row g-4">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="info-card">
-              <div class="info-card-icon">
-                <i class="bi bi-droplet-fill"></i>
+              <div class="info-card-image">
+                <picture>
+                  <source srcset="assets/img/info-cards/mision-gotagris.png">
+                  <source srcset="assets/img/info-cards/mision-gotagris.webp" type="image/webp">
+                  <img 
+                    src="assets/img/info-cards/mision-gotagris.png" 
+                    alt="Misión de GotaGris: Sostenibilidad y cuidado del medio ambiente para pequeños agricultores"
+                    loading="lazy"
+                    width="120"
+                    height="120"
+                    class="info-card-img"
+                  >
+                </picture>
+                <div class="image-skeleton" aria-hidden="true"></div>
               </div>
               <div class="info-card-content">
                 <h3>Nuestra Misión en GotaGris</h3>
@@ -214,8 +231,20 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="info-card">
-              <div class="info-card-icon">
-                <i class="bi bi-people-fill"></i>
+              <div class="info-card-image">
+                <picture>
+                  <source srcset="assets/img/info-cards/beneficios-agricultor.png">
+                  <source srcset="assets/img/info-cards/beneficios-agricultor.png">
+                  <img 
+                    src="assets/img/info-cards/beneficios-agricultor.png" 
+                    alt="Beneficios para pequeños agricultores: Herramientas accesibles para mejorar productividad y sostenibilidad"
+                    loading="lazy"
+                    width="120"
+                    height="120"
+                    class="info-card-img"
+                  >
+                </picture>
+                <div class="image-skeleton" aria-hidden="true"></div>
               </div>
               <div class="info-card-content">
                 <h3>Beneficios para el Agricultor</h3>
@@ -226,8 +255,20 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="info-card">
-              <div class="info-card-icon">
-                <i class="bi bi-recycle"></i>
+              <div class="info-card-image">
+                <picture>
+                  <source srcset="assets/img/info-cards/proceso-agua-gris.png">
+                  <source srcset="assets/img/info-cards/proceso-agua-gris.png">
+                  <img 
+                    src="assets/img/info-cards/proceso-agua-gris.png" 
+                    alt="Proceso de agua gris: Reutilización segura del agua doméstica para fines agrícolas sostenibles"
+                    loading="lazy"
+                    width="120"
+                    height="120"
+                    class="info-card-img"
+                  >
+                </picture>
+                <div class="image-skeleton" aria-hidden="true"></div>
               </div>
               <div class="info-card-content">
                 <h3>Proceso de Agua Gris</h3>
