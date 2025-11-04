@@ -1,7 +1,7 @@
 # 🌱 GotaGris - Sistemas de Agua Gris para Agricultura Sostenible
 
-![GotaGris Logo](<img width="2048" height="2048" alt="2136c66d-d84b-403d-a421-2149520a30dd" src="https://github.com/user-attachments/assets/de17d371-c3ab-4171-a675-8793ba42753b" />
-)
+<img width="2048" height="2048" alt="2136c66d-d84b-403d-a421-2149520a30dd" src="https://github.com/user-attachments/assets/3a506494-994f-445a-88c1-98763d5c3dda" />
+
 
 ## 📋 Índice
 
