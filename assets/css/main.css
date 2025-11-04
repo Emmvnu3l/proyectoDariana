@@ -170,6 +170,65 @@ h6 {
   color: var(--heading-color);
 }
 
+/* Estilos para el contenedor del logo y título */
+.header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.header .site-logo {
+  max-width: 60px;
+  height: auto;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.header .sitename {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--heading-color);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+/* Hover effect para el logo */
+.header .logo:hover .site-logo {
+  transform: scale(1.05);
+}
+
+/* Responsivo para dispositivos móviles */
+@media (max-width: 768px) {
+  .header .site-logo {
+    max-width: 45px;
+    margin-right: 10px;
+  }
+  
+  .header .sitename {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .site-logo {
+    max-width: 35px;
+    margin-right: 8px;
+  }
+  
+  .header .sitename {
+    font-size: 20px;
+  }
+  
+  .header .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
